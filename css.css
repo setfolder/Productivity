@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+body {
+    font-family: Tahoma;
+    font-size: 100%;
+    margin: 0;
+}
+.center {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 80%;
+    margin: 20px auto 0 auto;
+}
+section {
+    min-width: 20%;
+    max-width: 20%;
+}
+.sectionTech {
+    color: #1c6d93;
+}
+.sectionBody {
+    color: #0e6f10;
+}
+.sectionHacks {
+    color: #66428b;
+}
+.gap {
+    min-width: 10px;
+}
+.dataPic {
+    width: 48px;
+}
+.dataPic2 {
+    height: 48px;
+}
+.dataPic3 {
+    width: 42px;
+}
+h1 {
+    margin: 5px auto 0 auto;
+    text-align: center;
+    color: #5d617e;
+    font-weight: 500;
+    font-size: 220%;
+}
+.line1 {
+    margin-bottom: 0;
+    line-height: 1;
+}
+.line2 {
+    line-height: 1;
+    margin-top: 0;
+    font-size: 130%;
+    font-weight: bold;
+}
+h2 {
+    margin-bottom: 10px;
+    font-size: 120%;
+    text-align: center;
+}
+.dataRow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.dataRow1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    margin: 0 auto;
+}
+.dataRow2 {
+}
+.number {
+    color: black;
+    font-size: 46px;
+    font-weight: bold;
+    line-height: 1;
+}
+@media screen and (max-width:767px) {  /* Smartphone */
+    body {
+        font-size: 90%;
+    }
+    .center {
+        width: 95%;
+        margin: 0px auto 0 auto;
+        line-height: 1;
+    }
+    .dataRow1 {
+        margin-bottom: 5px;
+    }
+    h1 {
+        font-size: 180%;
+    }
+    .line2 {
+        font-size: 100%;
+    }
+    .gap {
+        min-width: 20px;
+    }
+}
